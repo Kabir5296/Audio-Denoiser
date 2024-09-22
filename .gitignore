@@ -1,0 +1,6 @@
+cache
+venv
+**/*.mp3
+**/*.wav
+**/*.opus
+**/*.ipynb
