@@ -5,3 +5,5 @@ pandas
 soundfile
 scipy
 transformers
+cleanunet
+fastapi[standard]
