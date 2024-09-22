@@ -3,6 +3,7 @@ import torchaudio, torch
 import numpy as np
 from typing import Union
 from denoiser.utils import chunk_audio, unchunk_audio
+from tqdm import tqdm
 
 class DenoiserAudio():
     """
@@ -76,8 +77,13 @@ class DenoiserAudio():
         num_chunks = audio_chunks.shape[0]
         batches = torch.split(audio_chunks, max_batch_size)
         
+        print("*"*20)
+        print(f"Total number of chunks is {num_chunks}")
+        print(f"Running system on {len(batches)} batches with each batch containing {max_batch_size} chunks")
+        print("*"*20)
+        
         denoised_audio = []
-        for batch in batches:
+        for batch in tqdm(batches):
             batch = batch.to(self.device)
             with torch.no_grad():
                 batch_output = self.model(batch)
