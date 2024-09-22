@@ -4,3 +4,4 @@ venv
 **/*.wav
 **/*.opus
 **/*.ipynb
+**/__pycache__
