@@ -18,6 +18,13 @@ app.add_middleware(
     allow_headers=["*"],  # Allows all headers
 )
 
+@app.get("/")
+def read_root():
+    return {
+        "status": 200,
+        "message": "Welcome to Speech Denoiser Module. Module developed by, Mahfuzul Kabir, MIS-MLE, ACI Limited"
+    }
+
 @app.post("/denoise/")
 async def create_denoised_file(file: UploadFile = File(...)):
     
