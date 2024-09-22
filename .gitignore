@@ -5,3 +5,4 @@ venv
 **/*.opus
 **/*.ipynb
 **/__pycache__
+CleanUNet

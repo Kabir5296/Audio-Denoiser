@@ -55,7 +55,9 @@ I wish that was the case. In case of longer audios, the number of batches are hu
 
 This approach creates amazing results. A 50 minute audio from World Economic Forum took only 4s to process. And about performance of CleanUNet itself, give it a try and see for yourself (spoiler: it's amazinggg).
 
-Thank you for using my system. Give it a <b>star</b> if it helps you in any way.
+I plan to add more speech enhancement options in this module as time goes. Surely you can contribute yourself or give me ideas that can be done as well.
+
+Thank you for using this system. Give it a <b>star</b> if it helps you in any way.
 
 ## Citation
 Don't forget to cite NVIDIA's original paper on CleanUNet. Kudos to them (not for handling the data efficiently though :p )
