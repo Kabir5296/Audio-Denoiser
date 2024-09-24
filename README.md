@@ -18,7 +18,7 @@ This approach creates amazing results. A 50 minute audio from World Economic For
 
 I plan to add more speech enhancement options in this module as time goes. Surely you can contribute yourself or give me ideas that can be done as well.
 
-Thank you for using this system. Give it a <b>star</b> if it helps you in any way.
+Thank you for using this system. Give it a <b>STAR</b> if it helps you in any way.
 
 ## Usage
 #### Use with user interface:
