@@ -4,7 +4,6 @@ from fastapi.responses import FileResponse
 from fastapi import FastAPI, UploadFile, File, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn, torchaudio
-from denoiser import DenoiserAudio
 import torch
 
 denoise = DenoiserAudio(device='cuda' if torch.cuda.is_available() else 'cpu', chunk_length_s=3, max_batch_size=20)
