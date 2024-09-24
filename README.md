@@ -21,6 +21,25 @@ I plan to add more speech enhancement options in this module as time goes. Surel
 Thank you for using this system. Give it a <b>star</b> if it helps you in any way.
 
 ## Usage
+#### Use with user interface:
+The latest addition to this project is the addition of gradio interface for non-tech people. Simple run the following codes in your terminal and a gradio user interface will be launched.
+
+```
+# Clone the git repository
+git clone https://github.com/Kabir5296/Speech-Denoiser-System.git
+
+# Change directory
+cd Speech-Denoiser-System
+
+# Install necessary modules
+pip install -r requirements.txt
+
+# Launch gradio_app.py
+python gradio_app.py
+```
+
+The gradio app will be accessible at https://127.0.0.0:7862 
+
 #### Use wiith API:
 To use with API follow the commands below. The system was built on python3.9 and it's preferable to use in same version. Create a python environment using python3.9 if needed.
 
@@ -37,6 +56,8 @@ pip install -r requirements.txt
 # Launch main.py
 python main.py
 ```
+
+The APIs can be accessed at https://127.0.0.0:8877 and access the swagger at https://127.0.0.0:8877/docs
 
 #### Use with denoiser module:
 For usage in development, the denoiser module can be used. To do so, simply initialize the DenoiserAudio module. The following codes can be helpful.
