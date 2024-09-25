@@ -8,3 +8,6 @@ venv
 DATA
 DATA/*
 CleanUNet
+dist
+**/*.egg-info
+dist/*
