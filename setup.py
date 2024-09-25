@@ -13,7 +13,15 @@ GITHUB_URL = 'https://github.com/Kabir5296/Audio-Denoiser.git'
 AUTHOR = "A F M Mahfuzul Kabir"
 AUTHOR_EMAIL = "<afmmahfuzulkabir@gmail.com>"
 
-REQUIREMENTS = open(os.path.join(ABSOLUTE_DIR,'requirements.txt')).read().splitlines()
+REQUIREMENTS = [
+        'torchaudio==2.4.1',
+        'numpy==2.0.2',
+        'pandas==2.2.3',
+        'soundfile==0.12.1',
+        'scipy==1.13.1',
+        'transformers==4.44.2',
+        'cleanunet==0.0.3'
+]
 README = open('README.md').read()
 PACKAGE_DATA = 'requirements.txt'
 
