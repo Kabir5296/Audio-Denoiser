@@ -1,8 +1,10 @@
 ## Speech Denoiser System (With NVIDIA CleanUNet)
-Developed by <b> Mahfuzul Kabir</b>,
-Machine Learning Engineer,
-ACI Limited
+Developed by <b> Mahfuzul Kabir</b>, \
+Machine Learning Engineer, \
+ACI Limited \
 Website: <a href = mahfuzulkabir.com>MahfuzulKabir.com</a>
+
+<img alt="An image of the gradio app" src="assets/image.png">
 
 ## Description:
 This system is the backbone of speech denoiser system, incorporating NVIDIA's CleanUNet. The denoiser module is built for use in any python system with ease. The system also offers an API for usage in developments.
