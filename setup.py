@@ -1,7 +1,8 @@
 from setuptools import setup, find_packages
 import os
+from pathlib import Path
 
-ABSOLUTE_DIR = os.path.abspath(os.path.dirname(__file__))
+ABSOLUTE_DIR = Path(__file__).parent
 
 NAME = 'audio-denoiser'
 VERSION = '0.0.1.dev1' 
@@ -27,9 +28,10 @@ setup(
         author = AUTHOR,
         author_email = AUTHOR_EMAIL,
         
-        license = "MIT",
+        license='MIT',
         packages = find_packages(where = 'denoiser'),
-        package_data={'':[PACKAGE_DATA]},
+        include_package_data=True,
+        package_data={'':['requirements.txt']},
         install_requires = REQUIREMENTS,
         
         classifiers = [
@@ -41,8 +43,5 @@ setup(
         
         keywords = ['audio denoise','denoise','cleanunet','speech denoise'],
         
-        url = {
-                'GitHub':GITHUB_URL,
-                'Author':AUTHOR_WEBSITE
-                },
+        url = GITHUB_URL
 )
