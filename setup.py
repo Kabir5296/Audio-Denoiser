@@ -4,8 +4,8 @@ from pathlib import Path
 
 ABSOLUTE_DIR = Path(__file__).parent
 
-NAME = 'audio-denoiser'
-VERSION = '0.0.1.dev1' 
+NAME = 'cleanunet-denoiser'
+VERSION = '0.0.1' 
 DESCRIPTION = 'CleanUNet based audio denoiser'
 AUTHOR_WEBSITE = 'https://www.mahfuzulkabir.com/'
 GITHUB_URL = 'https://github.com/Kabir5296/Audio-Denoiser.git'
