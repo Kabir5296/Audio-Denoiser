@@ -1,3 +1,4 @@
+<a href="https://pepy.tech/projects/cleanunet-denoiser"><img src="https://static.pepy.tech/badge/cleanunet-denoiser" alt="PyPI Downloads"></a>
 ## Speech Denoiser System (With NVIDIA CleanUNet)
 Developed by <b> Mahfuzul Kabir</b>, \
 Machine Learning Engineer, \
