@@ -9,6 +9,9 @@ Website: <a href = mahfuzulkabir.com>MahfuzulKabir.com</a>
 
 ## Description:
 This system is the backbone of speech denoiser system, incorporating NVIDIA's CleanUNet. The denoiser module is built for use in any python system with ease. The system also offers an API for usage in developments.
+```
+pip install cleanunet-denoiser
+```
 
 ## Algorithmic difficulties
 The CleanUNet is a very GPU hungry system. Upon my own testing, it can take upto 10GB of GPU usage for a 3 minute audio file (I know, crazy and shouldn't be like that at all). I guess the underlying reason is very poor handling and optimization of data usage in CleanUNet.
